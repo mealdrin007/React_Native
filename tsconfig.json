@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": [
+        "assets/*"
+      ]
+    }
+  },
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}

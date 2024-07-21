@@ -1,0 +1,22 @@
+.hoverElement {
+
+    pointer-events: none;
+    background-color: red
+}
+
+.hoverElement:hover {
+    cursor: pointer;
+}
+
+.hoverPointer {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.hoverPointer:hover {
+    cursor: pointer;
+}
